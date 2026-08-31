@@ -12,8 +12,8 @@ export function Skills() {
     >
       <div className="mx-auto max-w-content">
         <SectionHeading
-          eyebrow="03 — Skills"
-          title="Tools I reach for"
+          eyebrow="03 — Tools"
+          title="Tools I use"
           id="skills-heading"
         />
 

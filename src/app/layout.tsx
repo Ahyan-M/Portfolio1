@@ -23,11 +23,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahyan Mehta — Full Stack Developer",
+  title: "Ahyan Mehta Portfolio",
   description:
     "Portfolio of Ahyan Mehta, a Computer Science student and full stack developer building innovative web solutions.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
-    title: "Ahyan Mehta — Full Stack Developer",
+    title: "Ahyan Mehta Portfolio",
     description:
       "Building innovative web solutions with modern technologies and creative problem-solving.",
     type: "website",
