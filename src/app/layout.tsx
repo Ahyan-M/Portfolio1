@@ -27,7 +27,10 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Ahyan Mehta, a Computer Science student and full stack developer building innovative web solutions.",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
@@ -49,6 +52,11 @@ export default function RootLayout({
       className={`dark ${fraunces.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body>
         <div className="grain" aria-hidden />
         <Providers>
